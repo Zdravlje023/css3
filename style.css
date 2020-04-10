@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0 ;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+#wrapper {
+	margin:0 auto;
+	width:80%;
+	
+	
+	
+}
+
+
+#header {
+	width:100%;
+	margin: 0 15px;
+	text-align: center;
+	padding: 10px;
+}
+.pic {
+	background: #9CE2FF;
+	border-radius: 10px 10px 0 0;
+}
+
+.edge {
+	margin: 10px;	
+	border-radius: 10px;
+	text-align: center;
+	
+		
+}
+.pic {
+	
+	background: #9CE2FF;
+	
+}
+img {
+	width:100%;
+}
+h2 {
+	border-radius:0 0 10px 10px;
+	background: #DFDFDF;
+	padding: 2px;
+	margin: 0;
+}
+#text{
+	
+	margin:15px auto;
+	padding : 5px;
+}
+
+
+@media screen and (min-width:768px) and (max-width:1023px){
+	#wrapper{width:960px;}
+	#galery{
+		width:700px;
+		display: flex;
+		flex-wrap: wrap;
+		
+		
+	}
+	.edge{
+		flex-basis: 200px;
+		margin:30px 15px;
+	}
+	#header {
+		text-align: left;
+	}
+	
+	
+	
+	
+}
+@media screen and (min-width:1024px){
+	#wrapper{
+		width:960px;
+	}
+	#galery{
+		width:960px;
+		display: flex;
+		flex-wrap: wrap;
+		
+		
+	}
+	.edge{
+		
+		flex-basis: 170px;
+		margin:30px 10px;
+	}
+	#header {
+		
+		text-align: left;
+	}
+	
+	
+	
+}
+/*
